@@ -2,7 +2,7 @@ import React from 'react'
 
 function Kotak2() {
   return (
-    <div>Kotak2</div>
+    <div className='Kotak2'>Kotak2</div>
   )
 }
 

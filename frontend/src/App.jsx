@@ -1,15 +1,36 @@
-import Kotak1 from "./components/Kotak1"
-import Kotak2 from "./components/Kotak2"
+
+import Intro from "./components/Intro"
+import Navbar from "./components/Navbar"
+import Trending from "./components/Trending"
+import Superhero from "./components/Superhero"
+import Footer from "./components/Footer"
 
 
 function App() {
    return (
     <>
-    <h1>hello </h1>
-    <Kotak1/>
-    <Kotak2/>
-    </>
-  )
-}
+
+ 
+      <div className="intro" id="top">
+    <Navbar/>
+    <Intro/>
+   </div>
+     <div className="trending">
+     <Trending/>
+    <a href="#top" className="btn btn-warning p-2 tombol">Go to top
+    </a>
+     </div>
+
+     <div className="superhero">
+     <Superhero/>
+     </div>
+
+     <div className="footer">
+     <Footer/>
+     </div>
+
+     
+     </>
+   )}
 
 export default App
